@@ -1,0 +1,51 @@
+/*primera sección*/
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  height: 30%;
+  padding: 2em;
+  font-size: 1em;
+  background-image: url(../img/logoLokitoys.png.png);
+  background-position: right;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+}
+.header h1 {
+  margin: 0px;
+  font-weight: 300;
+}
+
+/*segunda seccióm*/
+
+.products {
+  height: 60%;
+  margin: auto;
+  padding: 1em;
+  font-size: 1em;
+  background-color: lightcyan;
+}
+
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+
+.img-products {
+  width: 250px;
+  padding: 2em;
+}
+
+/*tercera sección*/
+
+.footer {
+  height: 10%;
+  line-height: 3em;
+  background-color: lightgray;
+  text-align: center;
+  font-weight: 900;
+}
